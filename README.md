@@ -18,19 +18,25 @@ Các tính năng chính
 
 * Quản lý tài khoản: Đăng ký, đăng nhập và khôi phục mật khẩu thông qua Email.
 
-
+![alt text](image.png)
 
 * Phát nhạc trực tuyến: Hỗ trợ các nút điều khiển Play, Pause, Next, Previous và chế độ phát ngẫu nhiên (Random).
 
-
+![alt text](image-1.png)
 
 * Khám phá âm nhạc:
 
   * Hiển thị danh sách nhạc theo thể loại (Classic, Trending, English, VietNam, Podcast).
+  ![alt text](image-2.png)
+
   * Đề xuất bài hát nổi bật (Hot Recommended).
+![alt text](image-4.png)
+
   * Xem lịch sử nghe nhạc (Recently Played).
-  * Tìm kiếm: Tìm kiếm bài hát theo tên hoặc ca sĩ.
+  ![alt text](image-5.png)
+
   * Quản lý Playlist \& Album: Người dùng có thể xem danh sách phát và tạo album cá nhân.
+  ![alt text](image-3.png)
 
 
 
