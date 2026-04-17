@@ -1,33 +1,46 @@
-1. Project Description
-   
-Dự án này tập trung vào việc tìm hiểu các khái niệm nền tảng về Widget trong Flutter thông qua việc xây dựng một thành phần giao diện tùy chỉnh (Custom Widget) cho trò chơi đoán chữ.
-
-Mục tiêu: Hiểu cấu trúc của một StatelessWidget, cách sử dụng Constructor để truyền dữ liệu và kỹ thuật lồng ghép (composition) các widget cơ bản.
-
-Kiến thức trọng tâm:
-
-Sử dụng Container và BoxDecoration để tạo kiểu dáng (borders, colors, shape).
-
-Áp dụng switch expression trong Dart để thay đổi màu sắc widget dựa trên trạng thái dữ liệu.
-
-Quản lý bố cục đơn giản với Center và Text.
-
-2. Screenshots
-
-![img.png](img.png)
-
-3. Key Learnings 
-
-Trong quá trình thực hiện bài tập này, tôi đã nắm vững các quy tắc sau từ Flutter Architecture:
+Muzic - Ứng dụng nghe nhạc trên nền tảng Android
 
 
-Stateless over Stateful: Ưu tiên sử dụng StatelessWidget khi UI không cần thay đổi trạng thái nội tại sau khi dựng.
+
+Muzic là một ứng dụng nghe nhạc trực tuyến được phát triển nhằm mang lại trải nghiệm giải trí nhẹ nhàng, nhanh chóng với giao diện hiện đại trên hệ điều hành Android. Dự án tập trung vào việc tối ưu hóa các tính năng cơ bản, loại bỏ quảng cáo gây phiền nhiễu và cung cấp khả năng quản lý danh sách phát linh hoạt.
 
 
-Extract UI parts: Chia nhỏ giao diện thành các widget riêng biệt (Tile) để mã nguồn sạch sẽ và dễ tái sử dụng.
+
+Các tính năng chính
 
 
-Naming Conventions: Tuân thủ cách đặt tên PascalCase cho Classes và camelCase cho các biến/tham số trong Dart.
+
+Ứng dụng hỗ trợ đầy đủ các tính năng cần thiết của một trình phát nhạc hiện đại:
 
 
-Composition: Xây dựng giao diện bằng cách kết hợp nhiều widget nhỏ lại với nhau thay vì viết một widget quá lớn.
+
+
+
+* Quản lý tài khoản: Đăng ký, đăng nhập và khôi phục mật khẩu thông qua Email.
+
+
+
+* Phát nhạc trực tuyến: Hỗ trợ các nút điều khiển Play, Pause, Next, Previous và chế độ phát ngẫu nhiên (Random).
+
+
+
+* Khám phá âm nhạc:
+
+  * Hiển thị danh sách nhạc theo thể loại (Classic, Trending, English, VietNam, Podcast).
+  * Đề xuất bài hát nổi bật (Hot Recommended).
+  * Xem lịch sử nghe nhạc (Recently Played).
+  * Tìm kiếm: Tìm kiếm bài hát theo tên hoặc ca sĩ.
+  * Quản lý Playlist \& Album: Người dùng có thể xem danh sách phát và tạo album cá nhân.
+
+
+
+Công nghệ sử dụng:
+
+
+
+* Ngôn ngữ lập trình: Java.
+* Môi trường phát triển: Android Studio.
+* Backend \& Database: \* Firebase Realtime Database: Lưu trữ thông tin người dùng, danh sách bài hát và playlist.
+* Firebase Storage: Quản lý tệp tin.Google Drive: Lưu trữ tệp tin âm thanh (.mp3).
+* UI Components: RecyclerView (danh sách cuộn), BottomNavigationView (thanh điều hướng), CardView.
+
